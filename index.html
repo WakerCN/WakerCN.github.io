@@ -17,13 +17,13 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"wakercn.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":{"valine":{"text":"Valine评论","order":-2},"gitalk":{"text":"Gittalk评论","order":-1}},"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Elegance never goes out of style">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Waker">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://wakercn.com/">
 <meta property="og:site_name" content="Waker">
 <meta property="og:description" content="Elegance never goes out of style">
 <meta property="og:locale" content="zh_CN">
@@ -31,7 +31,7 @@
 <meta property="article:tag" content="waker">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://wakercn.com/">
 
 
 <script id="page-configurations">
@@ -149,10 +149,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://wakercn.com/posts/16107">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
       <meta itemprop="name" content="Waker">
       <meta itemprop="description" content="Elegance never goes out of style">
     </span>
@@ -163,7 +163,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/12/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/posts/16107" class="post-title-link" itemprop="url">Hello World</a>
         </h2>
 
         <div class="post-meta">
@@ -172,8 +172,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-12-20 21:42:13" itemprop="dateCreated datePublished" datetime="2020-12-20T21:42:13+08:00">2020-12-20</time>
+              <time title="创建时间：2020-12-20 21:42:13 / 修改时间：23:31:50" itemprop="dateCreated datePublished" datetime="2020-12-20T21:42:13+08:00">2020-12-20</time>
             </span>
 
           
@@ -185,8 +186,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/12/hello-world/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/12/hello-world/" itemprop="commentCount"></span>
+    <a title="valine" href="/posts/16107#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/16107" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -283,6 +284,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Waker"
+      src="/uploads/avatar.jpg">
   <p class="site-author-name" itemprop="name">Waker</p>
   <div class="site-description" itemprop="description">Elegance never goes out of style</div>
 </div>
@@ -297,6 +300,21 @@
       </div>
   </nav>
 </div>
+  <div class="sidebar-button motion-element"><i class="fa fa-comment"></i>
+    Chat
+  </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/WakerCN" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;WakerCN" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/qq_42235030" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_42235030" rel="noopener" target="_blank"><i class="fa fa-fw fa-codiepie"></i>CSDN</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="tencent://message/?uin=1209562577&Site=&Menu=yes" title="QQ → tencent:&#x2F;&#x2F;message&#x2F;?uin&#x3D;1209562577&amp;Site&#x3D;&amp;Menu&#x3D;yes" rel="noopener" target="_blank"><i class="fa fa-fw fa-qq"></i>QQ</a>
+      </span>
+  </div>
 
 
 
@@ -318,7 +336,7 @@
 
 <div class="copyright">
   
-  &copy; 20201220 – 
+  &copy; 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -409,19 +427,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   
 
   <script async src="/js/cursor/fireworks.js"></script>
-
-
-
-
-  <script async src="/js/activate-power-mode.min.js"></script>
-  <script>
-    POWERMODE.colorful = true;
-    POWERMODE.shake = false;
-    document.body.addEventListener('input', POWERMODE);
-  </script>
-
-
-
 
 </body>
 </html>
