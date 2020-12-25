@@ -2,48 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wakercn.com/google74251b130af41cff</loc>
+    <loc>https://wakercn.github.io/posts/20357</loc>
     
     <lastmod>2020-12-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wakercn.com/about/</loc>
+    <loc>https://wakercn.github.io/google74251b130af41cff</loc>
     
     <lastmod>2020-12-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wakercn.com/categories/</loc>
+    <loc>https://wakercn.github.io/about/</loc>
     
     <lastmod>2020-12-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wakercn.com/tags/</loc>
+    <loc>https://wakercn.github.io/categories/</loc>
+    
+    <lastmod>2020-12-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wakercn.github.io/tags/</loc>
     
     <lastmod>2020-12-24</lastmod>
     
   </url>
   
-  <url>
-    <loc>http://wakercn.com/posts/16107</loc>
-    
-    <lastmod>2020-12-20</lastmod>
-    
-  </url>
-  
 
   <url>
-    <loc>http://wakercn.com/</loc>
+    <loc>https://wakercn.github.io/</loc>
     <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://wakercn.github.io/tags/hexo/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wakercn.github.io/tags/next/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 
   
