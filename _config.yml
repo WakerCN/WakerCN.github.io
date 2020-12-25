@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://wakercn.com
+url: https://wakercn.github.io/
 root: /
 permalink_defaults:
 pretty_urls:
@@ -112,3 +112,18 @@ deploy:
   repo: 
     github: git@github.com:WakerCN/WakerCN.github.io.git,master
     coding: git@e.coding.net:wakercn/mybolg/myblog.git,master
+
+# 站点地图
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# 本地搜索
+# https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
