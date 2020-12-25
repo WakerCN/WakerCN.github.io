@@ -1179,7 +1179,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffa64d;
+  background: #e500df;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2374,4 +2374,16 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7f8c8d;
+  border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+  background-color: #bdc3c7;
+  border-radius: 3em;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 15px;
 }
